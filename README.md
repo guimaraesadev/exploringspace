@@ -13,6 +13,21 @@ Esse projeto faz parte do módulo II da RESILIA Educação, e tem como um dos pr
 A API criada e disponibilizada pela NASA conhecida pelo acrônimo "[APOD](https://api.nasa.gov/)", tem seu significado em **Astronomy Picture Of The Day**.  <br>
 O Astronomy Picture of the Day é um website mantido pela NASA e pela Universidade Tecnológica de Michigan. De acordo com o website, "cada dia uma imagem ou foto diferente do universo é mostrada, com uma curta explicação escrita por um astrônomo profissional"
 
+## **Ferramentas utilizadas;**
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+)
+![JSON](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white
+)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+)
+![GIT](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white
+)
+
+
 ## **Como consumir a API APOD;**
 
 💫 Solicitar a API Key
@@ -25,10 +40,10 @@ O Astronomy Picture of the Day é um website mantido pela NASA e pela Universida
 
 ## **Requisitos da aplicação;**
 
-➔ Neste projeto você deverá desenvolver uma aplicação capaz de realizar uma
+- Neste projeto você deverá desenvolver uma aplicação capaz de realizar uma
 requisição para esta API com base em uma data específica e, a partir disso, exibir
 na página a imagem ou vídeo, com a descrição obtida. <br>
-➔ Utilize seus conhecimentos de HTML, CSS, JavaScript e jQuery, para conceber
+- Utilize seus conhecimentos de HTML, CSS, JavaScript e jQuery, para conceber
 uma aplicação que esteja de acordo com os requisitos. <br>
 
 ⭐ Sua aplicação deve ser capaz de receber uma data como entrada do usuário a
