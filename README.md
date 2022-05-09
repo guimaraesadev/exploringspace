@@ -9,11 +9,19 @@ Esse projeto faz parte do módulo II da RESILIA Educação, e tem como um dos pr
 
 
 ## **Sobre a API;**
-![coversgithub (11)](https://user-images.githubusercontent.com/101408372/167162560-e57a1f79-8594-4704-a1dc-3c12a101d38b.png)
-
 
 A API criada e disponibilizada pela NASA conhecida pelo acrônimo "[APOD](https://api.nasa.gov/)", tem seu significado em **Astronomy Picture Of The Day**.  <br>
 O Astronomy Picture of the Day é um website mantido pela NASA e pela Universidade Tecnológica de Michigan. De acordo com o website, "cada dia uma imagem ou foto diferente do universo é mostrada, com uma curta explicação escrita por um astrônomo profissional"
+
+## **Como consumir a API APOD;**
+
+💫 Solicitar a API Key
+
+- Visite o site [API Nasa APOD](https://api.nasa.gov/); 
+- Selecione a aba **Generate API Key**;
+- Insira seus dados: First Name, Last Name e Email;
+- Clique em **"Signup"**;
+- Após esses passos sua chave será gerada para uso interno no código;
 
 ## **Requisitos da aplicação;**
 
