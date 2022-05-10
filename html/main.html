@@ -11,14 +11,18 @@
 </head>
 <body>
 
+    <!-- section para montar o HEADER da página -->
+    <!-- header NÃO FIXO -->
+    
     <section class="header">
         <nav>
-            <a href="https://www.nasa.gov/"><img src="../assets/images/NASA_logo.svg.png" alt="" width="70px"></a>
+            <a href="../index.html"><img src="../assets/images/NASA_logo.svg.png" alt="" width="70px"></a>
             <div class="nav-links">
                 <ul>
                     <li><a href="./main.html">HOME</a></li>
                     <li><a href="https://api.nasa.gov/">APOD API</a></li>
                     <li><a href="https://github.com/guimaraesadev/exploringspaceAPOD">GITHUB</a></li>
+                    <li><a href="https://www.nasa.gov/">NASA</a></li>
                 </ul>
             </div>
             <img src="../assets/images/exploringspacelogo1.png" alt="" width="90px">
@@ -26,16 +30,32 @@
     </section>
     <div class="choose">
         <h1>_choose your favorite date! 🗓️</h1>
+        <p>Travel between planets and galaxies through dates. Discover a new universe every day. <b>EXPLORE Space.</b></p>
         <input type="date" name="" id="" class="inputdate" id="inputdate"> 
-        <button id="btn" class="btn"> find cosmos🪐</button>
+        <button id="btn" class="btn" onclick="consultarAPI()"> find cosmos🪐</button>
     </div>
+
+    <!-- main para receber informações da API -->
+
+    <main class="contentMain">
+        <!-- Título da imagem do dia -->
+        <h1 class="title" id="title"></h1>
+        <!-- Data da imagem sendo exibida na tela -->
+        <p class="dateP" id="dateP"></p>
+        <!-- DIV para receber o conteúdo (imagem ou vídeo => youtube) -->
+        <div id="mediaAPI" class="mediaAPI"></div>
+        <!-- Paragrafo para receber a EXPLICAÇÃO que vem acompanhada da imagem // descritivo -->
+        <p id="contentP" class="contentP"></p> 
+
+
+    </main>
 
 
 
 
 
     <footer class="footer" id="footer">
-        
+
     </footer>
     <!-- ARQUIVO jQuery -->
     <script src="../jQueryLib/jquery-3.6.0.js"></script>
