@@ -1,38 +1,53 @@
+//key: yIvc5SJRvBfiStShBj7FvM1UWme8alglgrpaV9LH
+
+
 $("#btnSend").click(function ()
+//button function 
 {
     useAPI();
   });
-    //retorna dados da api
+    //return: API date
     function useAPI() {
-    const data = $("#date").val();
+        const data = $("#date").val();
+        // save input dates
   
-    
+    //ajax method
     $.ajax({
-      url: `https://api.nasa.gov/planetary/apod?api_key=yIvc5SJRvBfiStShBj7FvM1UWme8alglgrpaV9LH&date=${data}`,
+        url: `https://api.nasa.gov/planetary/apod?api_key=yIvc5SJRvBfiStShBj7FvM1UWme8alglgrpaV9LH&date=${data}`,
+        
+        //positive request:
         success: function (data) {
           
         $("#texto").html(" ")
-        apiData(data);
-  
-        }, error: function () {
+            apiData(data);
+        },
+        
+
+        //negative request:
+        error: function () {
             $("#texto").html("Error. Enter a valid date!")
+            $("#date").css('border', '1px solid red')
       }
       
     })
   
-    
+    //get data from API
+    //use const for ID's by HTML
     function apiData(procura) {
         const imagem = $("#mediaAPI");
         const titulo = $("#title");
         const explicacao = $("#contentP");
         const autor = $("#autorP")
         
-  
+        
+        //looking in the APOD API
+
         titulo.html(procura.title);
         explicacao.html(`<strong>Explanation:</strong> ${procura.explanation}`);
         autor.html(`<strong>Copyright:</strong> ${procura.copyright}`);
 
-        
+        //to select between video or image
+        //insert autoplay for video
   
       if (procura.media_type == 'image') {
         imagem.html(`<img class="img" src="${procura.url}"/>`)
@@ -41,4 +56,6 @@ $("#btnSend").click(function ()
       }
     }
     
-  }
+}
+  
+// the <iframe> tag specifies an inline frame. 
