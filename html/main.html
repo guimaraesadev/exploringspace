@@ -8,6 +8,7 @@
     <script src="../javascript/index.js"></script>
     <title>EXPLORE Space | APOD </title>
     <link rel="icon" href="../assets/images/exploringspacelogo.png" type="image/x-icon">
+    
 </head>
 <body>
 
@@ -31,8 +32,8 @@
     <div class="choose">
         <h1>_choose your favorite date! 🗓️</h1>
         <p>Travel between planets and galaxies through dates. Discover a new universe every day. <b>EXPLORE Space.</b></p>
-        <input type="date" name="" id="" class="inputdate" id="inputdate"> 
-        <button id="btn" class="btn" onclick="consultarAPI()"> find cosmos🪐</button>
+        <input type="date" class="date" id="date"> 
+        <button id="btnSend" class="btnSend"> find cosmos🪐</button>
     </div>
 
     <!-- main para receber informações da API -->
@@ -40,26 +41,32 @@
     <main class="contentMain">
         <!-- Título da imagem do dia -->
         <h1 class="title" id="title"></h1>
-        <!-- Data da imagem sendo exibida na tela -->
-        <p class="dateP" id="dateP"></p>
+
+        <p id="autorP" class="autorP"></p>
+        <!-- Paragrafo para receber o autor -->
+
         <!-- DIV para receber o conteúdo (imagem ou vídeo => youtube) -->
+       
         <div id="mediaAPI" class="mediaAPI"></div>
         <!-- Paragrafo para receber a EXPLICAÇÃO que vem acompanhada da imagem // descritivo -->
+
+        <p class="dateP" id="data"></p>
+        
+
         <p id="contentP" class="contentP"></p> 
+       
+
+        <p id="texto"></p>
 
 
     </main>
 
-
-
-
-
-    <footer class="footer" id="footer">
-
-    </footer>
     <!-- ARQUIVO jQuery -->
     <script src="../jQueryLib/jquery-3.6.0.js"></script>
     <!-- ARQUIVO javascript interno -->
     <script src="../javascript/index.js"></script>
+
+    
+
 </body>
 </html>
