@@ -37,6 +37,13 @@ O Astronomy Picture of the Day é um website mantido pela NASA e pela Universida
 - Insira seus dados: First Name, Last Name e Email;
 - Clique em **"Signup"**;
 - Após esses passos sua chave será gerada para uso interno no código;
+- Utilize o site [Hoppscotch](https://hoppscotch.io/pt-br/) para visualização e extração dos dados do JSON da API; 
+
+
+
+## **Design | Processo de criação;**
+
+
 
 ## **Requisitos da aplicação;**
 
