@@ -43,9 +43,28 @@ O Astronomy Picture of the Day é um website mantido pela NASA e pela Universida
 
 
 
-## **Design | Processo de criação;**
+## **Projeto: Web Responsive**
+
+Explore SPACE é o 2º projeto de sprint do módulo II da @RESILIA Educação. 
+
+![image](https://user-images.githubusercontent.com/101408372/167910318-183ca359-cd4f-4552-a179-98fcfc22b666.png)
 
 
+![image](https://user-images.githubusercontent.com/101408372/167909980-f1dcdfbf-582c-4369-8d4e-9018616c7d2e.png)
+
+## **Projeto: Mobile Responsive**
+
+![HTML code_](https://user-images.githubusercontent.com/101408372/167917315-bb37e9e7-d2e4-469a-aede-b8d919897886.png)
+
+
+## **Habilidades praticadas;** 
+- HTML semântico; 
+- Manipulação do DOM;
+- Consumo de API; 
+- Utilização da library jQuery; 
+- Manipulação do método Ajax para consumo de API's; 
+- Laços de repetição (if & else); 
+- Manipulação de arquivo JSON (JavaScript Object Notation);
 
 ## **Requisitos da aplicação;**
 
@@ -68,11 +87,10 @@ retornados sejam devidamente exibidos;
 ⭐ Sua aplicação deve, obrigatoriamente, ter um repositório no Github, estar
 disponível em uma Githubpage e utilizar jQuery;
 
-## **Habilidades praticadas;** 
-- HTML semântico; 
-- Manipulação do DOM;
-- Consumo de API; 
-- Utilização da library jQuery; 
-- Manipulação do método Ajax para consumo de API's; 
-- Laços de repetição (if & else); 
-- Manipulação de arquivo JSON (JavaScript Object Notation);
+
+## **Referências**; 
+- [API APOD | Nasa](https://api.nasa.gov/) <br>
+- [APOD docs GitHub](https://github.com/nasa/api-docs) <br>
+- [Astronomy Picture of the Day](https://apod.nasa.gov/apod/astropix.html) <br>
+- [Hoppscotch](https://hoppscotch.io/pt-br/)
+- [jQuery API docs](https://api.jquery.com/)
