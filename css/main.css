@@ -79,11 +79,12 @@ nav img {
 
 .date {
     font-size: 0.8rem;
-    background-color: rgb(222, 219, 219);
+    background-color: rgb(240, 240, 240);
     border-radius: 10px;
     border: none;
     padding: 10px;
     text-align: center;
+    font-weight: 500;
 }
 
 .btnSend {
@@ -93,10 +94,11 @@ nav img {
     border-radius: 10px;
     border: none;
     text-align: center;
+    font-weight: 500;
 }
 
 .btnSend:hover{
-    background-color: rgb(236, 219, 188);
+    background-color: rgb(241, 214, 164);
 }
 
 .choose p {
@@ -133,4 +135,8 @@ nav img {
     text-justify: auto;
 }
 
-
+#texto {
+    text-align: center;
+    font-weight: 800;
+    color: #d11f1d;
+}
