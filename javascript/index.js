@@ -27,6 +27,10 @@ $("#btnSend").click(function ()
         error: function () {
             $("#texto").html("Error. Enter a valid date! <br> From June 16, 1995 to the present day!")
             $("#date").css('border', '1px solid red')
+            $("#mediaAPI").hide()
+            $("#autorP").hide()
+            $("#title").hide()
+            $("#contentP").hide()
       }
       
     })

@@ -6,7 +6,9 @@
 Explore SPACE é o projeto de visuazalição de diferentes imagens do universo cedidas pela NASA através da API "APOD", em conjunto com uma pequena descrição, de acordo com a data pesquisada. <br>
 Esse projeto faz parte do módulo II da RESILIA Educação, e tem como um dos principais objetivos a desenvoltura das habilidades com JavaScript e sua library jQuery. 
 
+## **Projeto hospedado;**
 
+O projeto **EXPLORE Space** está hospedado no GitHub Pages: [EXPLORE Space](https://guimaraesadev.github.io/exploringspaceAPOD/)
 
 ## **Sobre a API;**
 
@@ -67,3 +69,10 @@ retornados sejam devidamente exibidos;
 disponível em uma Githubpage e utilizar jQuery;
 
 ## **Habilidades praticadas;** 
+- HTML semântico; 
+- Manipulação do DOM;
+- Consumo de API; 
+- Utilização da library jQuery; 
+- Manipulação do método Ajax para consumo de API's; 
+- Laços de repetição (if & else); 
+- Manipulação de arquivo JSON (JavaScript Object Notation);
